@@ -151,7 +151,7 @@ console.log("\n----------EXERCISE 10---------")
 function giveMeRandom(n){
     let randomNumbers1 = [];
     for(let i = 0; i < n; i++){
-        randomNumbers1.push(Math.floor(Math.random()*10));
+        randomNumbers1.push(Math.floor(Math.random()*11));
     }
     return randomNumbers1
 }
